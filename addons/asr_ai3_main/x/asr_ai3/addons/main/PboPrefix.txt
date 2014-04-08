@@ -1,0 +1,3 @@
+x\asr_ai3\addons\main
+prefix=x\asr_ai3\addons\main
+Pbo Type is: Arma

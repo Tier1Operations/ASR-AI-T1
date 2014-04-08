@@ -1,0 +1,3 @@
+x\asr_ai3\addons\sysaiskill
+prefix=x\asr_ai3\addons\sysaiskill
+Pbo Type is: Arma

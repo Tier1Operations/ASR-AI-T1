@@ -1,0 +1,47 @@
+ASR AI3 by Robalo
+AI modification for ARMA3
+
+Feature list by addon name
+
+main
+- common module, required by the others
+- has no effect on it's own, it contains common macro definitions and versioning stuff
+
+settings
+- loads user settings defined in main Arma dir\userconfig\asr_ai3\asr_ai3_settings.hpp
+- also required by the other modules
+
+cfgweapons
+- AI's fire mode selection, rate of fire and engagement ranges are tweaked. Makes them shoot more human-like.
+- Weapon dispersion varies more with unit's skill. The lower the skill, the more increased dispersion. Makes tweaking them from the userconfig more effective.
+
+sysaiskill
+- Reconfigures detection skills for soldiers. Base sensitivity skill has been reduced for civilians (3->2) and increased for snipers (3.5->4).
+Enemy snipers should be harder to hide from while friendly snipers should be employed strategically.
+Hearing has been improved for soldiers but the perceived noise made by soldier movement was reduced. Makes sneaking up still possible while soldiers will
+detect other noises better overall (those made by gun shots or vehicles for example).
+- The units skills are automatically configured based on their unit type, faction and the settings that can be changed in the userconfig. The skills are randomized but
+given in between a minimum and a maximum value based on the skill level each unit is assigned in. This way you can have regular unit better then guerilla but spec ops
+or snipers a lot better then all so you're able to customize but also keep the diversity. You can configure for each unit class values for their aiming, spotting and general
+skills. You can also apply global coefficients per faction. The skills are appied after the start of the mission for present units or for any units that may spawn in 
+later.
+- Skill reduction for wounded units. Wounding your target has an immediate effect on their ability to detect you or shoot back.
+- Reconfigures unit costs. Units are classified by importance in 3 levels: less (civilians, insurgents, militia), normal (regulars), more (special ops, snipers, officers).
+Units (especially players) may change equipment so it doesnt make sense to have an "AT guy" wear a big "shoot me first" sign just because he's in that "class".
+- The viewdistance of the dedicated server is dynamically adjusted during a mission based on sun elevation and fog level. This is done because the view distance of the 
+AI on the server determines how fast they will lose a target they already became aware of. Less chances of getting shot through the thick of the fog or darkness by AI
+you can't even see.
+
+sysdanger
+- AI share info about threats with other groups in their proximity if they have radios. Enhances awareness for groups that are not directly in contact with an enemy.
+- AI Groups coming into contact while in the open will try to move to cover. They may use smoke to conceal their movement. Helps them survive longer when caught in the open.
+- AI groups which do not have any pre-set waypoints may respond to danger with an attack, take defensive positions, use near houses, static or vehicle weapons.
+They will assess known enemy strength when considering how to react to danger. Makes then less predictable and more dangerous.
+- AI machinegunners use suppressive fire. Makes them more effective and feared.
+- AI will be alerted by explosions. They may try to get to cover. The higher state of alertness will increase the chances of detecting the enemy.
+- AI units are more able to detect gun fire. There are many factors which contribute to how far they can hear and how precise the information gained is:
+the ammo type, if the weapon is suppressed, how loud the weapon is (sound mods can change this), foliage, houses.
+- Wounded AI that is unable to walk may separate from their group and be left alone if there's no medic in the group. Helps AI groups reach their destination in a timely
+manner when one of theirs has been shot in the leg or had a stupid accident (fell of a rock and broke legs, got hit by car etc.).
+- Groups reduced to a single unit after mission start will look for near friendly groups and join with them. AI working as a team is a lot stronger then a bunch of separate units.
+- Buildings are used in combat by AI. You may see AI shooting from windows or rooftops and it may not be as easy to hide in a house anymore.

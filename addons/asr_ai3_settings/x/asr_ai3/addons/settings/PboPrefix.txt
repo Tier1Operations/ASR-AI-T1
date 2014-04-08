@@ -1,0 +1,4 @@
+x\asr_ai3\addons\settings
+prefix=x\asr_ai3\addons\settings
+Mikero=DePbo.dll
+Pbo Type is: Arma

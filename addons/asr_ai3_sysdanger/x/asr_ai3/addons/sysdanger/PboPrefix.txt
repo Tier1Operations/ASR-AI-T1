@@ -1,0 +1,3 @@
+x\asr_ai3\addons\sysdanger
+prefix=x\asr_ai3\addons\sysdanger
+Pbo Type is: Arma

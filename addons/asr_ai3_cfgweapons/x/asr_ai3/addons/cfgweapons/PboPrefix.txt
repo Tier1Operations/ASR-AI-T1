@@ -1,0 +1,3 @@
+x\asr_ai3\addons\cfgweapons
+prefix=x\asr_ai3\addons\cfgweapons
+Pbo Type is: Arma
