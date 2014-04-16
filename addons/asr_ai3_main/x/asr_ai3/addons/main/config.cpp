@@ -16,9 +16,9 @@ class CfgPatches
 		requiredAddons[] = {"CBA_MAIN"};
 		versionDesc = "ASR AI3";
 		versionAct = "";
-		version = "0.9.1.35";
-		versionStr = "0.9.1.35";
-		versionAr[] = {0,9,1,35};
+		version = "0.9.2.36";
+		versionStr = "0.9.2.36";
+		versionAr[] = {0,9,2,36};
 	};
 };
 class Extended_PreInit_EventHandlers

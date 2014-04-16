@@ -14,7 +14,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.14;
 		requiredAddons[] = {"asr_ai3_main","asr_ai3_settings","A3_Characters_F"};
-		version = "0.9.1.35";
+		version = "0.9.2.36";
 		author[] = {"Robalo"};
 	};
 };

@@ -14,7 +14,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.14;
 		requiredAddons[] = {"asr_ai3_main","asr_ai3_settings","A3_Characters_F","A3_Characters_F_Beta","A3_Characters_F_Gamma","A3_Characters_F_BLUFOR","A3_Characters_F_Civil","A3_Characters_F_OPFOR","A3_Characters_F_INDEP","A3_Characters_F_EPA","A3_Air_F","A3_Air_F_Heli_Light_01","A3_Air_F_Heli_Light_02"};
-		version = "0.9.1.34";
+		version = "0.9.2.36";
 		author[] = {"Robalo"};
 	};
 };
